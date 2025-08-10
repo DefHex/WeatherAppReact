@@ -1,12 +1,11 @@
 import { useEffect } from "react";
 import "./App.css";
 
-function Widget(props) {
-    
+function dayWidget(props) {
   return (
     <>
-      <div className="outerMainWidget">
-        <div className="mainWidget">
+      <div className="outerDayWidget">
+        <div className="mainDayWidget">
           <h1>Show data: {props.data}</h1>
         </div>
       </div>
@@ -14,4 +13,4 @@ function Widget(props) {
   );
 }
 
-export default Widget;
+export default dayWidget;

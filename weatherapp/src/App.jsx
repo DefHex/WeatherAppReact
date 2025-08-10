@@ -1,13 +1,8 @@
-import Widget from './Widget';
 import './App.css';
+import Api from './API';
 
-function App() {
-  let info = 0;
-  return (
-    <>
-      <Widget props={info} />
-    </>
-  );
-}
+const App = () => {
+  return <Api/>;
+};
 
 export default App;

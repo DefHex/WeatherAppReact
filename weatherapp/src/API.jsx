@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 // function to return long, lat from a given city name
 const getCoordinatesFromCityName= (city)=> {
       // define fetch link for geocoding api
